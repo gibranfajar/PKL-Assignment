@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+
+    <title>Lazada</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="#">
+          <img src="img/lazada.svg" alt="logo" width="150" height="100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Track Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto mt-2">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark mt-3" style="background-color: rgba(245, 47, 179, 0.863)">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav fs-5 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AboutUs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group shadow">
+            <a href="#" class="list-group-item d-flex justify-content-between align-items-center fs-5 fw-bold">
+              Home
+              <i class="bi bi-house-fill"></i>
+            </a>
+            <a href="#" class="list-group-item d-flex justify-content-between align-items-center fs-5 fw-bold">
+              Profile
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <a href="#" class="list-group-item d-flex justify-content-between align-items-center fs-5 fw-bold">
+              Lihat Keranjang
+              <i class="bi bi-bag-check"></i>
+            </a>
+            <a href="#" class="list-group-item d-flex justify-content-between align-items-center fs-5 fw-bold">
+              Status Pengiriman
+              <i class="bi bi-truck"></i>
+            </a>
+          </ul>
+          <div class="accordion mt-3 mb-3 shadow" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">MakeUp Product</button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Ini Adalah Produk MakeUp Terbaru Dari Toko Kami.</strong> <br />
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. In magni totam perferendis voluptas autem sint sunt sed cum esse, consequuntur animi velit delectus corporis aliquam ducimus
+                  sapiente ratione ipsam et nemo harum quo culpa exercitationem ullam. Dolorum perspiciatis ipsum ipsa eos. Ratione ea tempora corporis dignissimos placeat eaque accusamus vero.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accessories Handphone
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Ini Produk Aksesoris Handphone Terbaru Dan Terlengkap Ditoko Kami.</strong> <br />
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quos, voluptatibus, pariatur debitis incidunt iusto tenetur labore reiciendis itaque vero cum eius natus velit
+                  aut? Id earum cum, pariatur autem, et perspiciatis illo maxime iusto ab adipisci quidem dignissimos vitae fugit itaque reprehenderit a. Repellendus quisquam vero eos totam ullam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Shirt And Pants Product
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Ini Adalah Produk Baju Dan Celana Berkuaitas Ditoko Kami.</strong> <br />
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure odio aliquid et veniam laborum optio, voluptatum, cupiditate assumenda sequi maxime quis sed dignissimos tempore
+                  necessitatibus nostrum doloribus adipisci eos numquam expedita ratione earum inventore delectus! Odit doloremque labore error, totam voluptatibus id, perferendis dolorum assumenda
+                  officia voluptas repudiandae aperiam rem.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 justify-content-center" id="content">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/88sale.jpg" class="d-block w-100" alt="iklan-1" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/iklan-1.jpg" class="d-block w-100" alt="iklan-2" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/1010sale.jpg" class="d-block w-100" alt="iklan-3" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="row justify-content-center mt-5">
+            <div class="col-md-4 mb-2">
+              <a href="#" class="text-decoration-none">
+                <div class="card text-black shadow">
+                  <img src="img/mdfk.jpg" class="card-img-top" alt="product-1" />
+                  <div class="card-body">
+                    <h6 class="card-title">MDFK T-Shirt</h6>
+                    <p class="card-text d-flex justify-content-between">Rp 150.000,- <i class="bi bi-cart4"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-2">
+              <a href="#" class="text-decoration-none">
+                <div class="card text-black shadow">
+                  <img src="img/mdfk1.jpeg" class="card-img-top" alt="product-2" />
+                  <div class="card-body">
+                    <h6 class="card-title">MDFK Bag</h6>
+                    <p class="card-text d-flex justify-content-between">Rp 300.000,- <i class="bi bi-cart4"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 mb-2">
+              <a href="#" class="text-decoration-none">
+                <div class="card text-black shadow">
+                  <img src="img/caps.jpg" class="card-img-top" alt="product-3" />
+                  <div class="card-body">
+                    <h6 class="card-title">MDFK Cap</h6>
+                    <p class="card-text d-flex justify-content-between">Rp 100.000,- <i class="bi bi-cart4"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="list-group text-center shadow">
+            <ul class="list-group">
+              <li class="list-group-item bg-primary text-light fw-bold fs-5">List item product</li>
+
+              <a href="#" class="list-group-item list-group-item">T-Shirt</a>
+              <a href="#" class="list-group-item list-group-item">Pants</a>
+              <a href="#" class="list-group-item list-group-item">Shoes</a>
+              <a href="#" class="list-group-item list-group-item">MakeUp</a>
+              <a href="#" class="list-group-item list-group-item">Accessories HP</a>
+              <li class="list-group-item fw-bold text-danger">DLL</li>
+            </ul>
+          </div>
+
+          <div class="card p-2 mt-4 shadow">
+            <form>
+              <div class="text-center mb-3 mt-2">
+                <h5>Form Comments</h5>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Username</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="comment" class="mb-2">Comment</label>
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-white text-center pb-1 pt-3 mt-3 fw-bold" style="background-color: rgba(245, 47, 179, 0.863)">
+      <p>&#169; LAZADA. All right reserved</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

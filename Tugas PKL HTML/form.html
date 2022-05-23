@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <!-- judul -->
+    <h2>Buat Account Baru</h2>
+    <h3>Sign Up Form</h3>
+
+    <!-- Awal Form -->
+    <form action="welcome.html">
+      <!-- Form Input nama -->
+      <label for="FirstName">First Name : </label> <br /><br />
+      <input type="text" id="FirstName" name="FirstName" /> <br /><br />
+      <label for="LastName">Last Name : </label> <br /><br />
+      <input type="text" id="LastName" name="LastName" /> <br /><br />
+
+      <!-- Form input gender -->
+      <label for="Gender">Gender : </label> <br /><br />
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label> <br />
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label> <br />
+      <input type="radio" id="other" name="gender" value="Other" />
+      <label for="other">Other</label> <br /><br />
+
+      <!-- Form input nationality -->
+      <label for="Nationality">Nationality : </label> <br /><br />
+      <select name="National" id="National">
+        <option value="Indonesia">Indonesia</option>
+        <option value="Belanda">Belanda</option>
+        <option value="Jepang">Jepang</option>
+      </select>
+      <br /><br />
+
+      <!-- Form input language -->
+      <label for="Language">Language Spoken :</label> <br /><br />
+      <input type="checkbox" name="LanguageSpoken1" id="LanguageSpoken1" />
+      <label for="Language1">I have a bike</label> <br />
+      <input type="checkbox" name="LanguageSpoken2" id="LanguageSpoken2" />
+      <label for="Language2">I have a car</label> <br />
+      <input type="checkbox" name="LanguageSpoken3" id="LanguageSpoken3" />
+      <label for="Language3">I have a boat</label> <br /><br />
+
+      <!-- Form input bio and botton submit -->
+      <label for="Bio">Bio :</label> <br /><br />
+      <textarea type="textarea" name="bio" id="bio" rows="10" cols="30"></textarea><br />
+      <button type="submit">Submit</button>
+    </form>
+    <!-- Akhir Form -->
+  </body>
+</html>
